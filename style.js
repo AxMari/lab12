@@ -8,10 +8,16 @@ $(document).ready(function(){
 		$(this).fadeTo(400, 1);
 	});
 	
-	$('li').click(function(){
+	
+
+	$('li').mousedown(function(){
 		$(this).css("background-color", "red");
 			$(this).text("clicked");
-										
+	$('li').mouseup(function(){
+		$(this).css("background-color", "blue");
+			$(this).text("unclicked");
+		
 	});		
 });
-
+								
+});	
