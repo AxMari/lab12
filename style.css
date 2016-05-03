@@ -1,5 +1,28 @@
+body {
+	background-image: url(confectionary.png);
+}
+
 h1{
 	text-align: center;
+	background-color: #ffffe6;
+	padding: 3px 5px;
+	display: inline-block;
+	margin: 2% 45%;
+	horiz
+	
+}
+
+p {
+
+	margin: 10% ;
+	width: 80%;
+}
+
+ul{
+	margin: auto 10%;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
 }
 
 li {
@@ -8,10 +31,16 @@ li {
 	background-color: blue;
 	list-style: none;
 	display: inline-block;
-	text-align: center;
-	padding: auto 0;
 	font-family: Arial;
 	font-weight: bold;
 	color: white;
+	border: 0px;
+	padding-top: 25px;
 
 };
+#cat {
+	margin-top: 1000px;
+	display: inline-block;
+	padding-top: 1000px;
+}
+
